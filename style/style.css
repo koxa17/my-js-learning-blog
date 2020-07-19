@@ -1,0 +1,49 @@
+body.mui-scroll-lock .button-circle {
+    display: none;
+}
+
+.button-circle {
+    position: fixed;
+    bottom: 10%;
+    right: 10%;
+    opacity: .4;
+    transition: .3s ease-in;
+}
+
+.button-circle:hover {
+    opacity: 1;
+    transition: opacity .3s ease-in;
+}
+
+.color-text {
+    color: gray;
+}
+
+.color-text .italic-text {
+    font-style: italic;
+}
+
+.text-blog.hide-text p {
+    -webkit-line-clamp: 3;
+    /* Число отображаемых строк */
+    display: -webkit-box;
+    /* Включаем флексбоксы */
+    -webkit-box-orient: vertical;
+    /* Вертикальная ориентация */
+    overflow: hidden;
+    /* Обрезаем всё за пределами блока */
+    height: 60px;
+}
+
+.text-blog a {
+    float: right;
+    border-bottom: 1px solid transparent;
+    transition: border .3s ease-in;
+    outline: 0;
+}
+
+.text-blog a:hover {
+    text-decoration: none;
+    border-bottom: 1px solid #2196F3;
+    transition: border .2s ease-in;
+}
